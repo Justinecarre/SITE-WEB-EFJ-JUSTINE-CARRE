@@ -1,0 +1,41 @@
+#title {
+color: rgb(23, 1, 1);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    background-color: darkgrey;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px rgb(239, 12, 12) solid;
+    border-radius: 10px;
+   
+}
+
+/* Quand la souris passe dessus */
+a:hover {
+    background-color: rgb(180, 180, 180);
+    color: white;
+}
+
+/* Quand on clique */
+a:active {
+    background-color: red;
+    color: white;
+}
+
+.division{
+    padding: 12px;
+    margin: 24px auto;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+body {
+    background-color: lightblue;
+}
